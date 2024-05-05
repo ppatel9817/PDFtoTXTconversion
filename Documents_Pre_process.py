@@ -10,9 +10,6 @@ from tqdm import tqdm
 import spacy
 
 
-# In[ ]:
-
-
 '''
 The code is a Python script designed to extract text from PDF files and save the extracted text as `.txt` files. Here's a breakdown of what each part of the script does:
 
@@ -92,11 +89,6 @@ for pdf_path, output_file_path in tqdm(pdf_files, desc="Extracting PDFs"):
 
 print("Extraction and saving complete.")
 
-
-
-
-
-# In[ ]:
 
 
 '''
